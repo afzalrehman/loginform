@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: urdu;
+}
+
+@font-face {
+    font-family: urdu;
+    src: url(Jameel\ Noori\ Nastaleeq\ Kasheeda.ttf);
+}
+
+.box {
+    height: 500px;
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+    /* position: absolute; */
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+}
+
+.h1 {
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    font-size: 45px;
+    color: rgb(64, 0, 124);
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: 1.5px solid black;
+}
+
+.h2 {
+    position: relative;
+    top: 40px;
+    font-size: 35px;
+}
+
+.box1 {
+    position: relative;
+    top: 60px;
+}
+
+input {
+    padding: 4px 10px 4px 70px;
+    margin-top: 13px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(216, 216, 216);
+}
+
+button {
+    padding: 6px 110px 6px 110px;
+    border-radius: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+    word-spacing: 3px;
+    font-weight: 400;
+
+}
+
+#select {
+    padding: 4px 10px 4px 200px;
+    /* width: 300px; */
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(216, 216, 216);
+    margin-top: 13px;
+    font-size: 18px;
+    font-weight: bold;
+}
